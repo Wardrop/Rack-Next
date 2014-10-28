@@ -2,7 +2,7 @@ Rack Next
 =========
 This github-hosted project serves as the starting point for high-level discussion and planning of the next ruby web interface, intended to one day make Rack obselete. With Rack at this moment having no obvious future, the Rack Next project aims to get the ball rolling on a replacement that addresses the inadequacies of Rack as both a specification and a framework.
 
-The objective of Rack Next is to provide a common specification and framework for Ruby that supports modern web technologies, such as WebSockets and HTTP/2, with an emphasis on ascynhronous requests and bi-directional communication between client and server. Rack Next should be as lightweight, simple, and unassumining as it possibly can while obviously achieving its design objectives.
+The objective of Rack Next is to provide a common specification and framework for Ruby that supports modern web technologies, such as WebSockets, Server-sent events, and HTTP/2, with an emphasis on ascynhronous requests and bi-directional communication between client and server. Rack Next should be as lightweight, simple, and unassumining as it possibly can while obviously achieving its design objectives.
 
 Here are sources of potential inspiration and guidance that will no doubt influence the initial direction of the Rack Next project:
 
@@ -17,7 +17,7 @@ If traction is gained and we can agree on a final project name, this repository 
 
 #### Milestones
 * Establish the project scope and high-level objectives.
-* Formally define a specification that accomodates HTTP/2 and WebSockets, whilst leaving it open for other bi-directional, asychronous, and persistant network protocols. Simplicity is the ultimate objective, with interoperability being a close second. By the end of this milestone, we should have a proof of concept application server that takes input in some form, and produces output consistant with the specification at that time.
+* Formally define a specification that accomodates WebSockets, Server-sent events, and HTTP/2, whilst leaving it open for other bi-directional, asychronous, and persistant network protocols and techniques. Simplicity is the ultimate objective, with interoperability being a close second. By the end of this milestone, we should have a proof of concept application server that takes input in some form, and produces output consistant with the specification at that time.
 * Establish the scope of the framework. What features and capabilities will be provided and how will they be designed? Do we accomodate application developers as much as framework developers? How will the API be structured?
 * Start implementing the framework.
 
