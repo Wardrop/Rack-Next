@@ -13,7 +13,7 @@ Where do we begin?
 ------------------
 For Rack Next to succeed it needs to be a community effort, and we need to ensure the concerns of everyone are well considered and addressed if possible. The Github issues and wiki features will be used as the main collaberation tools for project discussion and planning. Issues will be used to raise points of discussion, while the wiki will be used to share concepts and document the outcome of questions, issues and ideas. Eventually, the git repository itself will be used to start forming a formal specification.
 
-==== Milestones
+#### Milestones
 * Define the project scope and high-level objectives.
 * Define a specification that accomodates HTTP/2 and WebSockets, as well as potentially other bi-directional, asychronous, and persistant network protocols. Simplicity is the ultimate objective, with interoperability being a close second. By the end of this step, we should have a proof of concept application server that takes input in some form, and produces output in line with the latest specification.
 * Define the scope of the framework. What features and capabilities will be provided and how will they be designed? Do we accomodate application developers as much as framework developers? How will the API be structured?
