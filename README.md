@@ -1,15 +1,23 @@
-rack-next
+Rack Next
 =========
+This github project serves as the starting point for discussion and high-level planning and implementation details of the next ruby web interface. With Rack at this moment having no obvious future, the Rack Next project aims to get the ball rolling on a replacement that addresses the inadequacies of Rack as both a specification, and framework.
 
-This github project serves as the starting point for discussion and high-level planning of the next ruby web interface. Rack at this moment has no obvious future. The Rack Next project aims to get the ball rolling on a potential replacement, whether it be named Rack 2.0, or something entirely different.
+The objective of Rack Next is to provide a common specification and framework for Ruby that supports modern web technologies, such as WebSockets and HTTP/2, with an emphasis on ascynhronous requests and bi-directional communication between client and server. Rack Next should be as lightweight, simple and unassumining as it possibly can while obviously achieving its design objectives.
 
-Rack Next main design goal is to provide a common framework and specification for modern web technologies, such as WebSockets and HTTP/2. Rack Next should be as lightweight, simple and unassumining as it possibly can whilst achieving it's design objectives.
-
-Here are sources of inspiration and guidance that will no doubt initially influence the direction of Rack Next:
+Here are sources of inspiration and guidance that will help influence the initial direction of the Rack Next project:
 
 * https://gist.github.com/raggi/11c3491561802e573a47
 * https://www.ruby-forum.com/topic/5437247
 
+Where do we begin?
+------------------
+For Rack Next to succeed it needs to be a community effort, and we need to ensure the concerns of everyone are well considered and addressed if possible. The Github issues and wiki features will be used as the main collaberation tools for project discussion and planning. Issues will be used to raise points of discussion, while the wiki will be used to share concepts and document the outcome of questions, issues and ideas. Eventually, the git repository itself will be used to start forming a formal specification.
+
+==== Milestones
+* Define the project scope and high-level objectives.
+* Define a specification that accomodates HTTP/2 and WebSockets, as well as potentially other bi-directional, asychronous, and persistant network protocols. Simplicity is the ultimate objective, with interoperability being a close second. By the end of this step, we should have a proof of concept application server that takes input in some form, and produces output in line with the latest specification.
+* Define the scope of the framework. What features and capabilities will be provided and how will they be designed? Do we accomodate application developers as much as framework developers? How will the API be structured?
+* Start implementing the framework.
 
 Implementation
 --------------
