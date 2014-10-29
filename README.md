@@ -1,6 +1,6 @@
 Rack Next
 =========
-This github-hosted project serves as the starting point for high-level discussion and planning of the next ruby web interface, intended to one day make Rack obselete. With Rack at this moment having no obvious future, the Rack Next project aims to get the ball rolling on a replacement that addresses the inadequacies of Rack as both a specification and a framework.
+This github-hosted project serves as the starting point for high-level discussion and planning of the next ruby web server interface, intended to one day make Rack obselete. With Rack at this moment having no obvious future, the Rack Next project aims to get the ball rolling on a replacement that addresses the inadequacies of Rack as both a specification and a framework.
 
 The objective of Rack Next is to provide a common specification and framework for Ruby that supports modern web technologies, such as WebSockets, Server-sent events, and HTTP/2, with an emphasis on ascynhronous requests and bi-directional communication between client and server. Rack Next should be as lightweight, simple, and unassumining as it possibly can while obviously achieving its design objectives.
 
