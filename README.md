@@ -8,6 +8,9 @@ Here are sources of potential inspiration and guidance that will no doubt influe
 
 * https://gist.github.com/raggi/11c3491561802e573a47
 * https://www.ruby-forum.com/topic/5437247
+* https://github.com/tenderlove/the_metal
+
+I acknowledge The Metal project which has a similar intention to this project, Rack Next; thanks to Peter Cooper for bringing my attention to it. The Metal is certainly a good example of what a Rack replacement could look like, but I'm hoping to start a lower level discussion first about the basic requirements and design goals of Rack Next. It'd be good to define the problem(s) we're solving, before discussing solutions, and the scope such solutions should cover. I'd like to see everything put on the table.
 
 Where do we begin?
 ------------------
